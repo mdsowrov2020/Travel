@@ -1,0 +1,90 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 13/09/2020 05:09
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-digital-marketing:before { content: "\f100"; }
+.flaticon-seo:before { content: "\f101"; }
+.flaticon-programming:before { content: "\f102"; }
+.flaticon-suitcase:before { content: "\f103"; }
+.flaticon-employee:before { content: "\f104"; }
+.flaticon-coffee:before { content: "\f105"; }
+.flaticon-analytics:before { content: "\f106"; }
+.flaticon-research:before { content: "\f107"; }
+.flaticon-suitcases:before { content: "\f108"; }
+.flaticon-suitcase-1:before { content: "\f109"; }
+.flaticon-football:before { content: "\f10a"; }
+.flaticon-support:before { content: "\f10b"; }
+.flaticon-dartboard:before { content: "\f10c"; }
+.flaticon-group:before { content: "\f10d"; }
+.flaticon-coding:before { content: "\f10e"; }
+.flaticon-medal:before { content: "\f10f"; }
+.flaticon-landing-page:before { content: "\f110"; }
+.flaticon-responsive-design:before { content: "\f111"; }
+.flaticon-website:before { content: "\f112"; }
+.flaticon-design:before { content: "\f113"; }
+.flaticon-work-tools:before { content: "\f114"; }
+.flaticon-web-programming:before { content: "\f115"; }
+.flaticon-web:before { content: "\f116"; }
+.flaticon-domain:before { content: "\f117"; }
+.flaticon-coding-1:before { content: "\f118"; }
+    
+    $font-Flaticon-digital-marketing: "\f100";
+    $font-Flaticon-seo: "\f101";
+    $font-Flaticon-programming: "\f102";
+    $font-Flaticon-suitcase: "\f103";
+    $font-Flaticon-employee: "\f104";
+    $font-Flaticon-coffee: "\f105";
+    $font-Flaticon-analytics: "\f106";
+    $font-Flaticon-research: "\f107";
+    $font-Flaticon-suitcases: "\f108";
+    $font-Flaticon-suitcase-1: "\f109";
+    $font-Flaticon-football: "\f10a";
+    $font-Flaticon-support: "\f10b";
+    $font-Flaticon-dartboard: "\f10c";
+    $font-Flaticon-group: "\f10d";
+    $font-Flaticon-coding: "\f10e";
+    $font-Flaticon-medal: "\f10f";
+    $font-Flaticon-landing-page: "\f110";
+    $font-Flaticon-responsive-design: "\f111";
+    $font-Flaticon-website: "\f112";
+    $font-Flaticon-design: "\f113";
+    $font-Flaticon-work-tools: "\f114";
+    $font-Flaticon-web-programming: "\f115";
+    $font-Flaticon-web: "\f116";
+    $font-Flaticon-domain: "\f117";
+    $font-Flaticon-coding-1: "\f118";

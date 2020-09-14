@@ -1,0 +1,31 @@
+@media (max-width: 575px) {
+  .banner_header_text h2 {
+    font-size: 20px !important;
+    color: #ff9d26;
+  }
+  .banner_header_text p {
+    font-size: 13px !important;
+  }
+  .slider_container .next_arrow {
+    display: none !important;
+  }
+  .slider_container .prev_arrow {
+    display: none !important;
+  }
+  .custom_nav .mobile_menu {
+    box-shadow: none !important;
+    outline: 0px !important;
+  }
+  .custom_nav .mobile_menu span {
+    color: #ff9d26 !important;
+  }
+  #mynav ul {
+    text-align: center;
+  }
+  #mynav ul .active::after {
+    display: none;
+  }
+  #mynav ul li::after {
+    display: none;
+  }
+}

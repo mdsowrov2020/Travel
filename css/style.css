@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
+:root {
+  --backgroundColor: #e5e5e5;
+  --peragraphColor: #484848;
+  --backgoundColorTwo: #afafaf;
+  --primaryColor: #82a69f;
+}
+a {
+  text-decoration: none !important;
+}
+h2 {
+  font-size: 45px;
+}
+
+/* all button css start */
+.all_btn {
+  display: inline-block;
+  text-align: center;
+}
+.all_btn a {
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  color: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
+  letter-spacing: 1px;
+  width: 135px;
+}
+
+/* all button css end */
+
+/* Navbar css start */
+.custom_nav {
+  background-color: #fff !important;
+  padding: 15px 0px;
+}
+.custom_nav .logo {
+  color: #ff9d26;
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+#mynav ul li {
+  line-height: 30px;
+  margin: 0px 20px;
+  padding: 0px !important;
+  position: relative;
+}
+#mynav ul li::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  transform: scale(0);
+  transition: all 0.3s linear;
+  width: 100%;
+  background: #ff9d26;
+}
+#mynav ul li:hover::after {
+  transform: scale(1);
+}
+#mynav ul li a {
+  font-size: 14px;
+  padding: 0px !important;
+  color: var(--peragraphColor);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+#mynav ul .active::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  transform: scale(1);
+  transition: all 0.3s linear;
+  width: 100%;
+  background: #ff9d26;
+}
+/* Navbar css end */
+/* #mynav ul li.right_login {
+  margin-left: 200px !important;
+} */
+.right_login_ul {
+  margin: 0px !important;
+}
+
+/* Slider css start */
+.slider_video {
+  position: relative;
+}
+.slider_video video {
+  background-position: center !important;
+  background-size: cover !important;
+  height: 70vh !important;
+  object-fit: cover !important;
+  background-attachment: fixed !important;
+  width: 100% !important;
+}
+.slider_container {
+  overflow: hidden;
+}
+.slider_images {
+  position: relative;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed !important;
+  height: 70vh !important;
+  width: 100% !important;
+}
+.slider_container .prev_arrow {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  z-index: 2 !important;
+  font-size: 35px;
+  height: 45px;
+  line-height: 45px;
+  transform: translateY(-50%);
+  transition: all 0.5s linear;
+  color: #fff;
+  width: 45px;
+  /* border: 1px solid #008a8c;
+  border-radius: 50%; */
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+.slider_container .next_arrow {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 35px;
+  font-weight: 200 !important;
+  z-index: 2;
+  transition: all 0.5s linear;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  width: 45px;
+  /* border: 1px solid #008a8c;
+  border-radius: 50%; */
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.slider_video_content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  z-index: 10;
+}
+.banner_form_control {
+  border: none !important;
+  box-shadow: none !important;
+  outline: 0px !important;
+  background: transparent !important;
+  border-radius: 0px !important;
+  color: #fff !important;
+  border-bottom: 2px solid #fff !important;
+}
+.banner_form_control option {
+  background-color: #ff9d26 !important;
+}
+.custom_banner_form {
+  border-radius: 4px;
+  padding: 10px 5px;
+  /* background-color: #ff9d26; */
+  background-color: rgba(255, 156, 36, 1);
+}
+.banner_header_text h2 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+}
+.banner_header_text p {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* Packages part css start */
+.Packeges_control {
+  border: none !important;
+  box-shadow: none !important;
+  outline: 0px !important;
+  background: transparent !important;
+  border-radius: 0px !important;
+  color: var(--peragraphColor) !important;
+  border-bottom: 2px solid #ff9d26 !important;
+}
+.Packeges_control option {
+  background-color: #ff9d26 !important;
+}
+.pckges_btn {
+  box-shadow: none !important;
+  outline: 0px !important;
+  background-color: #ff9d26;
+  color: #fff !important;
+  border-radius: 4px !important;
+}
+.packages_header_left h6 {
+  color: var(--peragraphColor);
+  letter-spacing: 1px;
+}
+.pack_img {
+  height: 150px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+}
+.pack_img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
+}
+.pack_top_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 8px 10px;
+}
+.pack_top_overlay p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.pack_bottom_overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 8px 10px;
+}
+.pack_bottom_overlay ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 10px;
+}
+.pack_btm_btn {
+  border: none !important;
+  box-shadow: none !important;
+  outline: 0px !important;
+  font-size: 11px;
+  height: 25px !important;
+  line-height: 15px;
+  background-color: #ff9d26;
+  color: #fff !important;
+  border-radius: 2px !important;
+}
+.pack_info {
+  padding: 8px;
+}
+.pack_info p {
+  font-size: 13px;
+  color: var(--peragraphColor);
+}
+.pack_info .pack_review {
+  color: #939393;
+  font-size: 11px;
+}
+.pack_review .pack_rating {
+  color: #ff9d26 !important;
+}
+.pack_review .pack_review_count {
+  border-right: 1px solid #939393 !important;
+  padding: 0px 3px !important;
+}
+.pack_review .pack_booked {
+  padding: 0px 3px !important;
+}
+.pack_info .pack_offer {
+  text-decoration: line-through !important;
+  color: #939393;
+  font-size: 11px;
+  line-height: -12px !important;
+}
+.pack_info .pack_up_off {
+  color: var(--peragraphColor);
+  font-size: 11px;
+  font-weight: 900;
+  margin: -12px 0px !important;
+}
+.pack_info .pack_availability {
+  font-size: 11px;
+  color: #939393;
+  margin: 12px 0px !important;
+}
+.packages_section {
+  background-color: #f5f5f5;
+}
+.packages_cart {
+  border-radius: 4px;
+  background-color: #fff;
+}
